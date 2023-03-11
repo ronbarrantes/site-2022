@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "removeComments": false,
+    // "module": "commonjs",
+    // "target": "es6",
+    "lib": ["es6", "dom", "ESNext"],
+    "rootDir": "./src",
+    // "outDir": "./dist",
+    // "inlineSources": true,
+    // "declaration": true,
+    // "noImplicitAny": true, // may change
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    // "noUnusedLocals": true, // may change
+    // "noUnusedParameters": true,
+    // "noImplicitReturns": true,
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true,
+    // "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es5",
+    "allowJs": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+  },
+  "include": ["src/**/*", "src/components", "custom.d.ts"],
+  "exclude": ["node_modules", "**/*.tests.ts"]
+}
